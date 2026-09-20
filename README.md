@@ -37,6 +37,23 @@ This repository documents organizations and public resources that support SafeSt
 | [CyberDefenders](https://cyberdefenders.org/) | Blue-team and DFIR training | Practical defensive-security, digital-forensics and incident-response exercises. |
 | [TypeSafe AI](https://typesafe.ai/) | Typed decision models for software | A newer AI resource focused on structured, typed decisions that software can consume directly; evaluate privacy, reliability and operational fit before using it with sensitive workflows. |
 
+## Recommended GitHub security repositories
+
+These are practical open-source building blocks for a reviewable SafeStack workflow. They are references and tools, not a claim of formal partnership or an automatic endorsement of every configuration.
+
+| Repository | Role in the workflow |
+| --- | --- |
+| [OWASP Cheat Sheet Series](https://github.com/OWASP/CheatSheetSeries) | Concise, high-value application-security guidance for developers, reviewers and operators. |
+| [OWASP ASVS](https://github.com/OWASP/ASVS) | A testable application-security verification standard for defining and reviewing control requirements. |
+| [OpenSSF Scorecard](https://github.com/ossf/scorecard) | Automated checks for repository security practices and open-source supply-chain risk signals. |
+| [Sigstore Cosign](https://github.com/sigstore/cosign) | Signing and verifying container images and other software artifacts with provenance support. |
+| [Aqua Security Trivy](https://github.com/aquasecurity/trivy) | Vulnerability, secret, misconfiguration and license scanning for repositories, images and filesystems. |
+| [Gitleaks](https://github.com/gitleaks/gitleaks) | Detects accidentally committed passwords, tokens and other credential-like material. |
+| [Semgrep](https://github.com/semgrep/semgrep) | Rule-based static analysis for finding insecure code patterns during development and CI. |
+| [OWASP ZAP](https://github.com/zaproxy/zaproxy) | Automated and manual web-application security testing for authorized environments. |
+| [ProjectDiscovery Nuclei](https://github.com/projectdiscovery/nuclei) | Template-based exposure and vulnerability checks for assets inside an explicitly authorized scope. |
+| [Anchore Syft](https://github.com/anchore/syft) | Generates SBOMs so dependencies and shipped components can be inventoried and reviewed. |
+
 ## How we use these resources
 
 - **Learn:** use structured training and hands-on laboratories to improve engineering and analyst capability.
@@ -49,6 +66,8 @@ This repository documents organizations and public resources that support SafeSt
 - **Secure the supply chain:** use OpenSSF and Sigstore concepts to make build provenance and artifact identity reviewable.
 - **Practice safely:** use PortSwigger, CyberDefenders and ProjectDiscovery only in owned labs or explicitly authorized scopes; use Wireshark for defensive analysis.
 - **Build:** use public Git hosting to keep software, documentation and verification steps reviewable.
+- **Automate review:** a practical order is `baseline → code analysis → secret scan → SBOM → vulnerability scan → artifact signing → verification`.
+- **Keep scope explicit:** configure scanners against owned assets or written authorization, review findings before acting, and pin tool versions in CI where reproducibility matters.
 
 ## Verification and responsible use
 
