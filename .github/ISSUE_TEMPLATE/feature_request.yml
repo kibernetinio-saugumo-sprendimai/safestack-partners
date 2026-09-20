@@ -1,0 +1,31 @@
+name: Resource or improvement request
+description: Suggest a relevant resource, category or documentation improvement.
+title: "[Request]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A listing is a curated reference and does not automatically mean endorsement or formal partnership.
+  - type: input
+    id: resource
+    attributes:
+      label: Resource or idea
+      description: Provide the official URL when proposing an external resource.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Explain how this would improve SafeStack's learning, defense or verification workflow.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety and verification notes
+      description: Mention scope, trust, privacy or authorization considerations.
+    validations:
+      required: true

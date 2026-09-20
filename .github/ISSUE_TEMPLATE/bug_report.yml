@@ -1,0 +1,31 @@
+name: Catalogue correction
+description: Report a broken link, inaccurate description or documentation defect.
+title: "[Correction]: "
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include secrets, private keys, access tokens or private incident details.
+  - type: input
+    id: resource
+    attributes:
+      label: Resource or file
+      description: Identify the affected link, table entry or file.
+      placeholder: https://example.org or README.md
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Describe the observed problem and the evidence for the correction.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+      description: Suggest accurate replacement text or a verified URL.
+    validations:
+      required: true

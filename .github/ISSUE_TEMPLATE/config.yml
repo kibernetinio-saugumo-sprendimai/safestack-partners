@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/kibernetinio-saugumo-sprendimai/safestack-partners/security/advisories/new
+    about: Use the private security reporting path for sensitive vulnerabilities. Do not post secrets publicly.
+  - name: SafeStack organization
+    url: https://github.com/kibernetinio-saugumo-sprendimai
+    about: View the organization profile and related repositories.

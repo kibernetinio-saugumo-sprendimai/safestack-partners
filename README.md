@@ -47,6 +47,10 @@ xychart-beta
 | ---: | ---: | ---: | ---: |
 | ecosystem resources | recommended GitHub projects | control stages | signed identity registry |
 
+## Project governance
+
+Read the [contribution guide](CONTRIBUTING.md), [security policy](SECURITY.md), [code of conduct](CODE_OF_CONDUCT.md) and [support guide](SUPPORT.md) before opening a change. GitHub issue forms and the pull request checklist help keep corrections evidence-based and free of secrets.
+
 ## Partners and resources
 
 | Organization | Resource | Purpose for SafeStack |
