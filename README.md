@@ -35,6 +35,7 @@ This repository documents organizations and public resources that support SafeSt
 | [Wireshark](https://www.wireshark.org/) | Network protocol analysis | Deep packet inspection for troubleshooting, forensics, protocol research and incident investigation. |
 | [CISA](https://www.cisa.gov/) | Public-sector cybersecurity guidance | Operational guidance, alerts and resources for reducing cyber risk and improving resilience. |
 | [CyberDefenders](https://cyberdefenders.org/) | Blue-team and DFIR training | Practical defensive-security, digital-forensics and incident-response exercises. |
+| [TypeSafe AI](https://typesafe.ai/) | Typed decision models for software | A newer AI resource focused on structured, typed decisions that software can consume directly; evaluate privacy, reliability and operational fit before using it with sensitive workflows. |
 
 ## How we use these resources
 
