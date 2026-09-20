@@ -1,43 +1,32 @@
-# SafeStack Non-Commercial License 1.0
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-Copyright © 2026 SafeStack / kibernetinio-saugumo-sprendimai. All rights reserved except for the permissions granted below.
+Copyright © 2026 SafeStack / kibernetinio-saugumo-sprendimai.
 
-This license applies to the original documentation, text, diagrams, charts, SVG artwork and other original materials in this repository (the **Work**). Third-party names, logos, links and external resources remain subject to their respective owners' terms.
+Unless a different notice applies, the original documentation, text, diagrams,
+charts and SVG artwork in this repository are licensed under the Creative
+Commons Attribution-NonCommercial 4.0 International License.
 
-## 1. Permission for people
+You are free to:
 
-You may view, copy, download, share and adapt the Work for personal, educational, research, accessibility and other **non-commercial** purposes, provided that you:
+* **Share** — copy and redistribute the material in any medium or format.
+* **Adapt** — remix, transform and build upon the material.
 
-- keep this license and the copyright notice with copies or adaptations;
-- give clear attribution to **SafeStack** and link to this repository;
-- identify material changes; and
-- do not imply that SafeStack endorses you, your organization or your use.
+Under these conditions:
 
-## 2. No commercial use
+* **Attribution** — give appropriate credit, link to the license and indicate
+  whether changes were made. Do not imply that SafeStack endorses you or your
+  use.
+* **NonCommercial** — do not use the material for commercial purposes.
 
-You may not use the Work, in whole or in part, primarily for commercial advantage or monetary compensation. This includes selling, licensing, bundling, marketing, advertising, paid training, paid consulting, paid products or paid services that materially use the Work.
+The full legal code is available at:
 
-Commercial permission is not granted by publishing a fork, mirror, screenshot, derivative, translation or renamed copy. Contact the SafeStack rights holder for a separate written license if commercial use is required.
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
 
-## 3. SafeStack name and logo
+The human-readable summary is available at:
 
-The SafeStack name, word marks, logos, visual identity, project names and public-key identity materials are protected intellectual property and are **not** licensed for modification, registration, commercial use or use as another organization's branding.
+https://creativecommons.org/licenses/by-nc/4.0/
 
-You may display an unmodified SafeStack logo only when identifying an unchanged, non-commercial copy of this repository and only with a link back to the original repository. You may not use the logo to imply sponsorship, certification, partnership or approval.
-
-## 4. Security materials and external content
-
-This license grants no permission to disclose, reconstruct, publish or use private keys, credentials, tokens, personal data or confidential information. Third-party resources listed in the catalogue are not owned or licensed by SafeStack and must be used under their own terms and within authorized scope.
-
-## 5. Disclaimer and termination
-
-The Work is provided **as is**, without warranties of any kind. To the maximum extent permitted by law, SafeStack is not liable for claims or damages arising from use of the Work.
-
-Your permission ends automatically if you violate this license. Sections covering attribution, commercial restrictions, trademarks, security materials and disclaimers survive termination.
-
-## 6. License reference
-
-SPDX identifier: `LicenseRef-SafeStack-NonCommercial-1.0`  
-This is a custom license. It is intentionally inspired by the attribution and non-commercial concepts in [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/), while adding SafeStack-specific intellectual-property and logo restrictions. The Creative Commons license is not incorporated by reference.
-
-If any part of this license is unenforceable, the remaining provisions continue to apply to the fullest extent permitted by law.
+This license does not grant rights to use SafeStack trademarks, logos, project
+names, third-party names or third-party material. See [TRADEMARKS.md](TRADEMARKS.md).
+Private keys, credentials, tokens, personal data and confidential information
+are never licensed for redistribution.

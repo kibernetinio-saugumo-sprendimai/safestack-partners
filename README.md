@@ -53,7 +53,7 @@ Read the [contribution guide](CONTRIBUTING.md), [security policy](SECURITY.md), 
 
 ## License and intellectual property
 
-This repository is released under the [SafeStack Non-Commercial License 1.0](LICENSE). People may use and adapt the original materials for personal, educational and other non-commercial purposes with attribution. Commercial use, brand appropriation and use of the SafeStack logo as another organization's identity require separate written permission.
+The original documentation and artwork in this repository use the standard [CC BY-NC 4.0](LICENSE) license: people may share and adapt them for non-commercial purposes with attribution. SafeStack name and logo rules are kept separately in [TRADEMARKS.md](TRADEMARKS.md), because trademarks and third-party materials are not automatically covered by a content license.
 
 ## Partners and resources
 
