@@ -51,6 +51,10 @@ xychart-beta
 
 Read the [contribution guide](CONTRIBUTING.md), [security policy](SECURITY.md), [code of conduct](CODE_OF_CONDUCT.md) and [support guide](SUPPORT.md) before opening a change. GitHub issue forms and the pull request checklist help keep corrections evidence-based and free of secrets.
 
+## License and intellectual property
+
+This repository is released under the [SafeStack Non-Commercial License 1.0](LICENSE). People may use and adapt the original materials for personal, educational and other non-commercial purposes with attribution. Commercial use, brand appropriation and use of the SafeStack logo as another organization's identity require separate written permission.
+
 ## Partners and resources
 
 | Organization | Resource | Purpose for SafeStack |
