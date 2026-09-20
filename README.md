@@ -25,6 +25,16 @@ This repository documents organizations and public resources that support SafeSt
 | [MobaXterm](https://mobaxterm.mobatek.net/) | Windows SSH and terminal client | A practical administration tool for authorized remote operations, SSH sessions and controlled lab access. |
 | [Agent Skills](https://agentskills.io/home) | Agent capability and skills resource | A reference point for understanding reusable agent skills and structuring safe, reviewable automation workflows. |
 | [gptchat.com](https://gptchat.com/) | Unverified third-party AI chat domain | Listed only as a reference requested by the team. No official SafeStack or OpenAI affiliation is assumed; do not send credentials, private keys or confidential data there. |
+| [OWASP](https://owasp.org/) | Application security foundation | Open-source projects, secure-development guidance, application-security education and widely used references such as OWASP Top 10. |
+| [NIST Cybersecurity](https://www.nist.gov/cybersecurity) | Standards and risk-management guidance | Cybersecurity Framework, privacy, cryptography, identity, risk management and practical guidance for organizations. |
+| [FIRST](https://www.first.org/) | Incident-response and security community | CSIRT collaboration, CVSS, EPSS, threat-intelligence practices and coordinated incident-response knowledge. |
+| [OpenSSF](https://openssf.org/) | Open-source supply-chain security | Practices and projects for improving the security, provenance and resilience of open-source software. |
+| [Sigstore](https://www.sigstore.dev/) | Artifact signing and provenance | Tools and services for signing software artifacts and verifying software supply-chain provenance. |
+| [PortSwigger Web Security Academy](https://portswigger.net/web-security) | Web-security training | Free, hands-on labs for learning web vulnerabilities, testing methods and defensive remediation. |
+| [ProjectDiscovery](https://projectdiscovery.io/) | Attack-surface discovery | Open security tools for asset discovery, exposure management and authorized vulnerability research. |
+| [Wireshark](https://www.wireshark.org/) | Network protocol analysis | Deep packet inspection for troubleshooting, forensics, protocol research and incident investigation. |
+| [CISA](https://www.cisa.gov/) | Public-sector cybersecurity guidance | Operational guidance, alerts and resources for reducing cyber risk and improving resilience. |
+| [CyberDefenders](https://cyberdefenders.org/) | Blue-team and DFIR training | Practical defensive-security, digital-forensics and incident-response exercises. |
 
 ## How we use these resources
 
@@ -34,6 +44,9 @@ This repository documents organizations and public resources that support SafeSt
 - **Observe:** use public threat maps as context, never as the sole source for an incident decision.
 - **Research responsibly:** use exploit references and Kali tooling only for authorized testing; use HackerOne only within a program's published scope.
 - **Protect secrets:** use OpenSSL documentation for cryptographic operations, but generate production and signing keys locally or in an HSM; do not paste secrets into online generators or unverified AI sites.
+- **Set a baseline:** use OWASP, NIST and FIRST guidance to define controls, severity and response expectations before choosing tools.
+- **Secure the supply chain:** use OpenSSF and Sigstore concepts to make build provenance and artifact identity reviewable.
+- **Practice safely:** use PortSwigger, CyberDefenders and ProjectDiscovery only in owned labs or explicitly authorized scopes; use Wireshark for defensive analysis.
 - **Build:** use public Git hosting to keep software, documentation and verification steps reviewable.
 
 ## Verification and responsible use
