@@ -14,6 +14,10 @@ This repository documents organizations and public resources that support SafeSt
 | [MITRE ATT&CK](https://attack.mitre.org/) | Adversary tactics and techniques knowledge base | A common language for threat modeling, detection mapping, security research and coverage discussions. |
 | [Codeberg](https://codeberg.org/) | Open-source Git hosting | An independent open-source collaboration and hosting option for public software and reproducible project work. |
 | [Xcitium ThreatMap](https://threatmap.xcitium.com/) | Real-time malware threat map | An external situational-awareness signal for observing current malware activity and communicating the wider threat landscape. |
+| [Exploit Database](https://www.exploit-db.com/) | Public exploit and proof-of-concept archive | A research reference for authorized penetration testing, vulnerability validation and defensive patch prioritization. Use only within an explicit scope and never against systems without permission. |
+| [Kali Linux](https://www.kali.org/) | Penetration-testing platform | A documented operating environment and tool collection for authorized security assessments, labs and controlled research. |
+| [BunsenLabs Linux](https://www.bunsenlabs.org/index.html) | Lightweight Debian-based desktop distribution | A low-resource, customizable Linux environment useful for dedicated research workstations and reproducible lab setups. |
+| [HackerOne](https://www.hackerone.com/) | Vulnerability discovery and disclosure platform | A coordinated channel for security research, validation and responsible vulnerability reporting when a program's scope and rules permit it. |
 
 ## How we use these resources
 
@@ -21,6 +25,7 @@ This repository documents organizations and public resources that support SafeSt
 - **Model:** use MITRE ATT&CK to describe adversary behavior and map controls to recognizable techniques.
 - **Check:** use breach-awareness services as one input to personal and organizational credential hygiene.
 - **Observe:** use public threat maps as context, never as the sole source for an incident decision.
+- **Research responsibly:** use exploit references and Kali tooling only for authorized testing; use HackerOne only within a program's published scope.
 - **Build:** use public Git hosting to keep software, documentation and verification steps reviewable.
 
 ## Verification and responsible use
