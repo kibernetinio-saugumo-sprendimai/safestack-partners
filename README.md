@@ -1,8 +1,51 @@
 # SafeStack partners and ecosystem resources
 
+<p align="center">
+  <img src="assets/safestack-security-maturity.svg" alt="SafeStack security maturity map" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/kibernetinio-saugumo-sprendimai/safestack-partners"><img src="https://img.shields.io/badge/ecosystem-curated-0b3b43?style=for-the-badge&logo=github&logoColor=white" alt="Curated ecosystem"></a>
+  <a href="https://github.com/kibernetinio-saugumo-sprendimai/safestack-project-public-keys"><img src="https://img.shields.io/badge/identity-signed%20registry-087f5b?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="Signed identity registry"></a>
+  <a href="https://github.com/kibernetinio-saugumo-sprendimai"><img src="https://img.shields.io/badge/focus-cybersecurity-102a43?style=for-the-badge&logo=shield&logoColor=white" alt="Cybersecurity focus"></a>
+</p>
+
 This repository documents organizations and public resources that support SafeStack's security learning, threat intelligence, verification and open-source work.
 
 > A listing here records an ecosystem relationship or useful external resource. It does not by itself claim a commercial endorsement, certification or signed partnership agreement.
+
+## Security operating picture
+
+The catalogue is organized as an evidence path: establish a baseline, inspect code and dependencies, identify secrets, scan the runtime surface, then sign and verify the resulting artifacts.
+
+```mermaid
+flowchart LR
+    A[Governance<br/>OWASP · NIST · FIRST] --> B[Code assurance<br/>ASVS · Semgrep]
+    B --> C[Supply chain<br/>Scorecard · Syft · Trivy]
+    C --> D[Exposure testing<br/>ZAP · Nuclei · Wireshark]
+    D --> E[Identity & provenance<br/>Cosign · public key registry]
+    E --> F[Reviewable release]
+    classDef core fill:#0b3b43,stroke:#62e6c5,color:#e9fffa,stroke-width:2px;
+    classDef final fill:#087f5b,stroke:#9af7df,color:#ffffff,stroke-width:2px;
+    class A,B,C,D,E core;
+    class F final;
+```
+
+### X/Y coverage view
+
+The chart below is a planning view of how evidence coverage grows as controls move from governance into verification. It is a management signal, not a claim that an external tool proves security by itself.
+
+```mermaid
+xychart-beta
+    title "Partner workflow evidence coverage"
+    x-axis ["Governance", "Code", "Supply chain", "Runtime", "Verification"]
+    y-axis "Coverage score" 0 --> 100
+    line [42, 58, 72, 80, 94]
+```
+
+| **28+** | **10** | **5** | **1** |
+| ---: | ---: | ---: | ---: |
+| ecosystem resources | recommended GitHub projects | control stages | signed identity registry |
 
 ## Partners and resources
 
