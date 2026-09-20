@@ -18,6 +18,13 @@ This repository documents organizations and public resources that support SafeSt
 | [Kali Linux](https://www.kali.org/) | Penetration-testing platform | A documented operating environment and tool collection for authorized security assessments, labs and controlled research. |
 | [BunsenLabs Linux](https://www.bunsenlabs.org/index.html) | Lightweight Debian-based desktop distribution | A low-resource, customizable Linux environment useful for dedicated research workstations and reproducible lab setups. |
 | [HackerOne](https://www.hackerone.com/) | Vulnerability discovery and disclosure platform | A coordinated channel for security research, validation and responsible vulnerability reporting when a program's scope and rules permit it. |
+| [PythonWorld](https://pythonworld.ru/) | Python learning reference | Beginner-friendly Python lessons and examples that support developer onboarding and automation fundamentals. |
+| [OpenSSL Documentation](https://docs.openssl.org/master/) | Cryptographic and TLS documentation | Primary reference for OpenSSL commands, libraries, formats, FIPS material and TLS/QUIC implementation guidance. |
+| [Generate-Random encryption keys](https://generate-random.org/encryption-keys) | Online key-generation utility | A convenient educational utility for test data and non-production experiments. Root, signing and production secrets must be generated locally or by a managed HSM; never paste them into a website. |
+| [Udemy](https://www.udemy.com/) | Online learning platform | Supplementary courses for engineering, cloud, security and professional development. Course quality and currency must be reviewed before relying on material. |
+| [MobaXterm](https://mobaxterm.mobatek.net/) | Windows SSH and terminal client | A practical administration tool for authorized remote operations, SSH sessions and controlled lab access. |
+| [Agent Skills](https://agentskills.io/home) | Agent capability and skills resource | A reference point for understanding reusable agent skills and structuring safe, reviewable automation workflows. |
+| [gptchat.com](https://gptchat.com/) | Unverified third-party AI chat domain | Listed only as a reference requested by the team. No official SafeStack or OpenAI affiliation is assumed; do not send credentials, private keys or confidential data there. |
 
 ## How we use these resources
 
@@ -26,6 +33,7 @@ This repository documents organizations and public resources that support SafeSt
 - **Check:** use breach-awareness services as one input to personal and organizational credential hygiene.
 - **Observe:** use public threat maps as context, never as the sole source for an incident decision.
 - **Research responsibly:** use exploit references and Kali tooling only for authorized testing; use HackerOne only within a program's published scope.
+- **Protect secrets:** use OpenSSL documentation for cryptographic operations, but generate production and signing keys locally or in an HSM; do not paste secrets into online generators or unverified AI sites.
 - **Build:** use public Git hosting to keep software, documentation and verification steps reviewable.
 
 ## Verification and responsible use
